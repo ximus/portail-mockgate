@@ -1,0 +1,8 @@
+cp -R code/mraa .
+mkdir mraa/build && cd $_
+cmake .. -DBUILDSWIGNODE=OFF -DCMAKE_BUILD_TYPE=DEBUG
+make
+make install
+
+echo "/usr/local/lib/i386-linux-gnu/" > /etc/ld.so.conf
+ldconfig

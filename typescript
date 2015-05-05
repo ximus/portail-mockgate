@@ -1,0 +1,341 @@
+Script started on Wed Mar 25 20:54:13 2015
+]0;fish  /Users/maximeliron/code/portail-mockgate[30m(B[mWelcome to fish, the friendly interactive shell
+Type [32mhelp[30m(B[m for instructions on how to use fish
+]0;fish  /Users/maximeliron/code/portail-mockgate[30m(B[m[38;5;245m⏎[0m                                                                                                                       [38;5;220m~/c/portail-mockgate[30m(B[m $ [Kscript[38;5;69mscript[30m(B[m[Ks[31m[1ms(B[m[38;5;240mcript[30m(B[m[31m[1mc(B[m[38;5;240mript[30m(B[m[31m[1mr(B[m[38;5;240mipt[30m(B[m[31m[1mi(B[m[38;5;240mpt[30m(B[m[31m[1mp(B[m[38;5;240mt[30m(B[m[31m[1mt(B[m[38;5;69mscript[30m(B[m[38;5;69ms[30m(B[m[31m[1mscripts(B[m[38;5;240m/[30m(B[m[31m[1m/(B[m[38;5;69mscripts/[30m(B[m[38;5;69mp[30m(B[m[9D[31m[1mscripts/p(B[m[31m[1mr(B[m[31m[1me(B[m[11D[1m[45mscripts/pre(B[m[30m[30m(B[m[11D[31m[1mscripts/pre(B[m[31m[1mp(B[m[31m[1ma(B[m[13D[1m[45mscripts/prepa(B[m[30m[30m(B[m[13D[31m[1mscripts/prepa(B[m[13D[1m[45mscripts/prepa(B[m[30m[30m(B[m[13D[31m[1mscripts/prepa(B[m[K[38;5;69mscripts/[30m(B[m[Ks[31m[1ms(B[m[38;5;240mcript[30m(B[m[31m[1mc(B[m[38;5;240mript[30m(B[m[31m[1mr(B[m[38;5;240mipt[30m(B[m[31m[1mi(B[m[38;5;240mpt[30m(B[m[31m[1mp(B[m[38;5;240mt[30m(B[m[31m[1mt(B[m[38;5;69mscript[30m(B[m[38;5;69ms[30m(B[m[31m[1mscripts(B[m[38;5;240m/[30m(B[m[31m[1m/(B[m[38;5;69mscripts/[30m(B[m[38;5;69mredo_mraa [30m(B[m 
+app.c              debug.h                  main.c    mraatmp/               radio.c       
+app.h              gate.c                   Makefile  mrbgem/                radio.h       
+bin/               gate.h                   motor.c   mruby-tmp/             ruby_methods.c
+circular_buffer.c  initial\ python\ stuff/  motor.h   mruby.c                scripts/      
+circular_buffer.h  inspiration/             mraa/     mruby_build_config.rb  typescript    [A[A[A[A[A[50D[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[36C[13D[31m[1mscripts/redo_(B[m[K[38;5;69mscripts/[30m(B[m[Kl[31m[1ml(B[m[38;5;240ml[30m(B[m[31m[1ml(B[m[38;5;69mll[30m(B[m[38;5;69m [30m(B[m [38;5;240m/opt/poky-edison/1.6.1/environment-setup-core2-32-poky-linux [61D[30m(B[ms[K[38;5;39m[4ms[30m(B[m[38;5;240mcripts/[30m(B[m[38;5;39m[4mc[38;5;240m[24mripts/[30m(B[m[38;5;39m[4mr[38;5;240m[24mipts/[30m(B[m[38;5;39m[4mi[38;5;240m[24mpts/[30m(B[m[38;5;39m[4mp[38;5;240m[24mts/[30m(B[m[38;5;39m[4mt[38;5;240m[24ms/[30m(B[m[38;5;39m[4ms[38;5;240m[24m/[30m(B[m[K
+[30m(B[m]0;ll  /Users/maximeliron/code/portail-mockgate[30m(B[mtotal 24
+-rw-rw-r--  1 maximeliron  staff   950B Mar 21 21:50 bootstrap-edison.sh
+-rw-r--r--  1 maximeliron  staff   188B Mar 25 20:53 prepare_mruby.sh
+-rwxrwxr-x  1 maximeliron  staff   181B Mar 20 12:57 [31mredo_mraa[39;49m[0m
+]0;fish  /Users/maximeliron/code/portail-mockgate[30m(B[m[38;5;245m⏎[0m                                                                                                                       [38;5;220m~/c/portail-mockgate[30m(B[m $ [Kc[31m[1mc(B[m[38;5;240md ../mruby/[11D[30m(B[m[31m[1mh(B[m[K[38;5;240mmod o+x /Volumes/MAINMAX/Users/maximeliron/[43D[30m(B[m[31m[1mm(B[m[38;5;240mod o+x /Volumes/MAINMAX/Users/maximeliron/[42D[30m(B[m[31m[1mo(B[m[38;5;240md o+x /Volumes/MAINMAX/Users/maximeliron/[41D[30m(B[m[31m[1md o+x /Volumes/MAINMAX/Users/maximeliron/(B[m[45D[38;5;69mchmod[30m(B[m [38;5;39mo+x[30m(B[m [38;5;39m[4m/Volumes/MAINMAX/Users/maximeliron/[30m(B[m[12D[K[K[K[K[Ks[38;5;39m[4ms[30m(B[m[38;5;240mcripts/[30m(B[m[38;5;39m[4mc[38;5;240m[24mripts/[30m(B[m[38;5;39m[4mr[38;5;240m[24mipts/[30m(B[m[38;5;39m[4mi[38;5;240m[24mpts/[30m(B[m[38;5;39m[4mp[38;5;240m[24mts/[30m(B[m[38;5;39m[4mt[38;5;240m[24ms/[30m(B[m[38;5;39m[4ms[38;5;240m[24m/[30m(B[m[38;5;39m[4m/[30m(B[m[38;5;39m[4m*[30m(B[m[9D[38;5;39mscripts/[36m*[30m(B[m[38;5;240mbootstrap-edison.sh [20D[30m(B[m[K
+[30m(B[m]0;chmod  /Users/maximeliron/code/portail-mockgate[30m(B[m]0;fish  /Users/maximeliron/code/portail-mockgate[30m(B[m[38;5;245m⏎[0m                                                                                                                       [38;5;220m~/c/portail-mockgate[30m(B[m $ [K.[38;5;69m.[30m(B[m[38;5;240m ~/.config/fish/config.fish[27D[30m(B[m[Ks[31m[1ms(B[m[38;5;240mcript[30m(B[m[31m[1mc(B[m[38;5;240mript[30m(B[m[31m[1mr(B[m[38;5;240mipt[30m(B[m[31m[1mi(B[m[38;5;240mpt[30m(B[m[31m[1mp(B[m[38;5;240mt[30m(B[m[31m[1mt(B[m[38;5;69mscript[30m(B[m[38;5;69ms[30m(B[m[31m[1mscripts(B[m[38;5;240m/[30m(B[m[31m[1m/(B[m[38;5;69mscripts/[30m(B[m[38;5;69mp[30m(B[m[9D[31m[1mscripts/p(B[m[31m[1mr(B[m[31m[1me(B[m[11D[1m[45mscripts/pre(B[m[30m[30m(B[m[11D[31m[1mscripts/pre(B[m[K[38;5;69mscripts/[30m(B[m[38;5;69mchmod o+x [1m[45mscripts/(B[m[30m[38;5;69m[40m(B[m[38;5;69m*[30m(B[m[14D [38;5;39mo+x[30m(B[m [1m[38;5;39m[45mscripts/(B[m[30m[36m[40m(B[m[36m*[30m(B[m[19D[38;5;69mls [1m[45msc[30m(B[m[45mr[38;5;39mipt[30m(B[m[45ms[38;5;39m/(B[m[30m[30m(B[m[K[9D [1m[38;5;39m[45m[4mscripts/(B[m[30m[30m(B[m
+[30m(B[m]0;ls  /Users/maximeliron/code/portail-mockgate[30m(B[m[31mbootstrap-edison.sh[39;49m[0m [31mprepare_mruby.sh[39;49m[0m    [31mredo_mraa[39;49m[0m
+]0;fish  /Users/maximeliron/code/portail-mockgate[30m(B[m[38;5;245m⏎[0m                                                                                                                       [38;5;220m~/c/portail-mockgate[30m(B[m $ [K;;l[31m[1ml(B[m[38;5;240mconvert [30m(B[m[K[K;;; s[31m[1ms(B[m[38;5;240mcripts/[30m(B[m[31m[1mc(B[m[38;5;240mripts/[30m(B[m[31m[1mr(B[m[38;5;240mipts/[30m(B[m[31m[1mo(B[m[K[38;5;240mllkeeper-config [16D[30m(B[m[K[31m[1mi(B[m[38;5;240mpts/[30m(B[m[31m[1mp(B[m[38;5;240mts/[30m(B[m[31m[1mt(B[m[38;5;240ms/[30m(B[m[38;5;69mscript[38;5;240ms/[30m(B[m
+[36mscript[38;5;240m  (Executable, 18kB)[30m(B[m  [36mscript[30m(B[ms/[38;5;240m  (Directory)[A[17D[30m(B[m[38;5;69ms/[30m(B[m
+[K[A[34C
+[30m(B[m]0;fish  /Users/maximeliron/code/portail-mockgate[30m(B[m]0;fish  /Users/maximeliron/code/portail-mockgate/scripts[30m(B[m[38;5;245m⏎[0m                                                                                                                       [38;5;220m~/c/p/scripts[30m(B[m $ [Kl[31m[1ml(B[m[38;5;240ml[30m(B[m[31m[1ml(B[m[38;5;69mll[30m(B[m[38;5;69m [30m(B[m [38;5;240m/opt/poky-edison/1.6.1/environment-setup-core2-32-poky-linux [61D[30m(B[ms[K[38;5;39ms[30m(B[m[38;5;39mc[30m(B[m[38;5;39mr[30m(B[m[38;5;39mi[30m(B[m[38;5;39mp[30m(B[m[38;5;39mt[30m(B[m[38;5;39ms[30m(B[m
+[30m(B[m]0;ll  /Users/maximeliron/code/portail-mockgate/scripts[30m(B[mls: scripts: No such file or directory
+]0;fish  /Users/maximeliron/code/portail-mockgate/scripts[30m(B[m[38;5;245m⏎[0m                                                                                                                       [38;5;220m~/c/p/scripts[30m(B[m [1m[31m$ [Kc[31m[1mc(B[m[38;5;240mhmod o+x scripts/*[18D[30m(B[m[31m[1md(B[m[K[38;5;69mcd[30m(B[m[38;5;240m ..[30m(B[m[38;5;69m [38;5;240m..[30m(B[m [38;5;240m..[30m(B[m-[K[38;5;39m-[30m(B[m
+[30m(B[m]0;cd  /Users/maximeliron/code/portail-mockgate/scripts[30m(B[m]0;fish  /Users/maximeliron/code/portail-mockgate[30m(B[m[38;5;245m⏎[0m                                                                                                                       [38;5;220m~/c/portail-mockgate[30m(B[m $ [Kcd -[38;5;69mcd[30m(B[m [38;5;39m-[30m(B[m[38;5;69mll[30m(B[m [38;5;39mscripts[30m(B[m[38;5;39m[4mscripts[30m(B[m
+[30m(B[m]0;ll  /Users/maximeliron/code/portail-mockgate[30m(B[mtotal 24
+-rw-rw-r-x  1 maximeliron  staff   950B Mar 21 21:50 [31mbootstrap-edison.sh[39;49m[0m
+-rw-r--r-x  1 maximeliron  staff   188B Mar 25 20:53 [31mprepare_mruby.sh[39;49m[0m
+-rwxrwxr-x  1 maximeliron  staff   181B Mar 20 12:57 [31mredo_mraa[39;49m[0m
+]0;fish  /Users/maximeliron/code/portail-mockgate[30m(B[m[38;5;245m⏎[0m                                                                                                                       [38;5;220m~/c/portail-mockgate[30m(B[m $ [Ks[31m[1ms(B[m[38;5;240mcript[30m(B[m[31m[1mc(B[m[38;5;240mript[30m(B[m[31m[1mr(B[m[38;5;240mipt[30m(B[m[31m[1mi(B[m[38;5;240mpt[30m(B[m[31m[1mp(B[m[38;5;240mt[30m(B[m[31m[1mt(B[m[38;5;69mscript[30m(B[m[38;5;69ms[30m(B[m[31m[1mscripts(B[m[38;5;240m/[30m(B[m[31m[1m/(B[m[38;5;69mscripts/[30m(B[m[38;5;69mp[30m(B[m[9D[31m[1mscripts/p(B[m[31m[1mr(B[m[31m[1me(B[m[31m[1mp(B[m[31m[1ma(B[m[31m[1mr(B[m[31m[1me(B[m[31m[1m_(B[m[31m[1mm(B[m[31m[1mr(B[m[31m[1mu(B[m[31m[1mc(B[m[31m[1my(B[m[K[K[31m[1mb(B[m[31m[1my(B[m[31m[1m.(B[m[31m[1m.(B[m[K[31m[1ms(B[m[31m[1mh(B[m
+[30m(B[m]0;scripts/prepare_mruby.sh  /Users/maximeliron/code/portail-mockgate[30m(B[mThe file 'scripts/prepare_mruby.sh' is not executable by this user
+]0;fish  /Users/maximeliron/code/portail-mockgate[30m(B[m[38;5;245m⏎[0m                                                                                                                       [38;5;220m~/c/portail-mockgate[30m(B[m [1m[31m$ [Kscripts/prepare_mruby.sh[24D[31m[1mscripts/prepare_mruby.sh(B[m[24D[31m[1mll scripts(B[m[K[10D[38;5;69mll[30m(B[m [38;5;39m[4mscripts[30m(B[m[10D[38;5;69mcd[30m(B[m [38;5;39m[4m-[30m(B[m[K[38;5;39m-[30m(B[m[38;5;69m;;[30m(B[m [38;5;39mscripts/[30m(B[m[11D;; [38;5;69mscripts/[30m(B[m[11Dls [38;5;69mscripts/[30m(B[m[11D[38;5;69mls[30m(B[m [38;5;39m[4mscripts/[30m(B[m[11D[38;5;69mch[30m(B[mm[38;5;39m[4mod o+x scripts/*[30m(B[m[17D[38;5;69mmod[30m(B[m [38;5;39mo+x[30m(B[m [38;5;39mscripts/[36m*[30m(B[m[38;5;39m+x [30m(B[ms[38;5;39mcripts/*[30m(B[m[K[12D[C[C [38;5;39mscripts/[36m*[12D[30m(B[m[12C
+[30m(B[m]0;chmod  /Users/maximeliron/code/portail-mockgate[30m(B[m]0;fish  /Users/maximeliron/code/portail-mockgate[30m(B[m[38;5;245m⏎[0m                                                                                                                       [38;5;220m~/c/portail-mockgate[30m(B[m $ [Kchmod +x scripts/*[18D[38;5;69mchmod[30m(B[m [38;5;39m+x[30m(B[m [38;5;39mscripts/[36m*[30m(B[m[18D[38;5;69mscrip[30m(B[mt[38;5;39ms/[30m(B[mp[38;5;39mrepare_m[36mruby.sh[30m(B[m[19D[38;5;69mts/prepare_mruby.sh[30m(B[m[24D[38;5;69mll scripts[30m(B[m[K [38;5;39m[4mscripts[30m(B[m[10D[38;5;69mcd[30m(B[m [38;5;39m[4m-[30m(B[m[K[38;5;39m-[30m(B[m[38;5;69mll[30m(B[m [38;5;39mscripts[30m(B[m[38;5;39m[4mscripts[30m(B[m[10D[38;5;69msc[30m(B[mr[38;5;39m[4mipts/prepare_mruby.sh[30m(B[m[22D[38;5;69mripts/prepare_mruby.sh[30m(B[m
+[30m(B[m]0;scripts/prepare_mruby.sh  /Users/maximeliron/code/portail-mockgate[30m(B[mfatal: depth 0 is not a positive number
+cp: vendor/mruby/build_config.rb: No such file or directory
+scripts/prepare_mruby.sh: line 6: cd: vendor/mruby: No such file or directory
+scripts/prepare_mruby.sh: line 7: ./minirake: No such file or directory
+]0;fish  /Users/maximeliron/code/portail-mockgate[30m(B[m[38;5;245m⏎[0m                                                                                                                       [38;5;220m~/c/portail-mockgate[30m(B[m [1m[31m$ [Ke[31m[1me(B[m[38;5;240mxit[30m(B[m[Kscripts/prepare_mruby.sh[24D[38;5;69mscripts/prepare_mruby.sh[30m(B[m
+[30m(B[m]0;scripts/prepare_mruby.sh  /Users/maximeliron/code/portail-mockgate[30m(B[mCloning into 'vendor/mruby'...
+remote: Counting objects: 441, done.[K
+remote: Compressing objects:   0% (1/340)   [Kremote: Compressing objects:   1% (4/340)   [Kremote: Compressing objects:   2% (7/340)   [Kremote: Compressing objects:   3% (11/340)   [Kremote: Compressing objects:   4% (14/340)   [Kremote: Compressing objects:   5% (17/340)   [Kremote: Compressing objects:   6% (21/340)   [Kremote: Compressing objects:   7% (24/340)   [Kremote: Compressing objects:   8% (28/340)   [Kremote: Compressing objects:   9% (31/340)   [Kremote: Compressing objects:  10% (34/340)   [Kremote: Compressing objects:  11% (38/340)   [Kremote: Compressing objects:  12% (41/340)   [Kremote: Compressing objects:  13% (45/340)   [Kremote: Compressing objects:  14% (48/340)   [Kremote: Compressing objects:  15% (51/340)   [Kremote: Compressing objects:  16% (55/340)   [Kremote: Compressing objects:  17% (58/340)   [Kremote: Compressing objects:  18% (62/340)   [Kremote: Compressing objects:  19% (65/340)   [Kremote: Compressing objects:  20% (68/340)   [Kremote: Compressing objects:  21% (72/340)   [Kremote: Compressing objects:  22% (75/340)   [Kremote: Compressing objects:  23% (79/340)   [Kremote: Compressing objects:  24% (82/340)   [Kremote: Compressing objects:  25% (85/340)   [Kremote: Compressing objects:  26% (89/340)   [Kremote: Compressing objects:  27% (92/340)   [Kremote: Compressing objects:  28% (96/340)   [Kremote: Compressing objects:  29% (99/340)   [Kremote: Compressing objects:  30% (102/340)   [Kremote: Compressing objects:  31% (106/340)   [Kremote: Compressing objects:  32% (109/340)   [Kremote: Compressing objects:  33% (113/340)   [Kremote: Compressing objects:  34% (116/340)   [Kremote: Compressing objects:  35% (119/340)   [Kremote: Compressing objects:  36% (123/340)   [Kremote: Compressing objects:  37% (126/340)   [Kremote: Compressing objects:  38% (130/340)   [Kremote: Compressing objects:  39% (133/340)   [Kremote: Compressing objects:  40% (136/340)   [Kremote: Compressing objects:  41% (140/340)   [Kremote: Compressing objects:  42% (143/340)   [Kremote: Compressing objects:  43% (147/340)   [Kremote: Compressing objects:  44% (150/340)   [Kremote: Compressing objects:  45% (153/340)   [Kremote: Compressing objects:  46% (157/340)   [Kremote: Compressing objects:  47% (160/340)   [Kremote: Compressing objects:  48% (164/340)   [Kremote: Compressing objects:  49% (167/340)   [Kremote: Compressing objects:  50% (170/340)   [Kremote: Compressing objects:  51% (174/340)   [Kremote: Compressing objects:  52% (177/340)   [Kremote: Compressing objects:  53% (181/340)   [Kremote: Compressing objects:  54% (184/340)   [Kremote: Compressing objects:  55% (187/340)   [Kremote: Compressing objects:  56% (191/340)   [Kremote: Compressing objects:  57% (194/340)   [Kremote: Compressing objects:  58% (198/340)   [Kremote: Compressing objects:  59% (201/340)   [Kremote: Compressing objects:  60% (204/340)   [Kremote: Compressing objects:  61% (208/340)   [Kremote: Compressing objects:  62% (211/340)   [Kremote: Compressing objects:  63% (215/340)   [Kremote: Compressing objects:  64% (218/340)   [Kremote: Compressing objects:  65% (221/340)   [Kremote: Compressing objects:  66% (225/340)   [Kremote: Compressing objects:  67% (228/340)   [Kremote: Compressing objects:  68% (232/340)   [Kremote: Compressing objects:  69% (235/340)   [Kremote: Compressing objects:  70% (238/340)   [Kremote: Compressing objects:  71% (242/340)   [Kremote: Compressing objects:  72% (245/340)   [Kremote: Compressing objects:  73% (249/340)   [Kremote: Compressing objects:  74% (252/340)   [Kremote: Compressing objects:  75% (255/340)   [Kremote: Compressing objects:  76% (259/340)   [Kremote: Compressing objects:  77% (262/340)   [Kremote: Compressing objects:  78% (266/340)   [Kremote: Compressing objects:  79% (269/340)   [Kremote: Compressing objects:  80% (272/340)   [Kremote: Compressing objects:  81% (276/340)   [Kremote: Compressing objects:  82% (279/340)   [Kremote: Compressing objects:  83% (283/340)   [Kremote: Compressing objects:  84% (286/340)   [Kremote: Compressing objects:  85% (289/340)   [Kremote: Compressing objects:  86% (293/340)   [Kremote: Compressing objects:  87% (296/340)   [Kremote: Compressing objects:  88% (300/340)   [Kremote: Compressing objects:  89% (303/340)   [Kremote: Compressing objects:  90% (306/340)   [Kremote: Compressing objects:  91% (310/340)   [Kremote: Compressing objects:  92% (313/340)   [Kremote: Compressing objects:  93% (317/340)   [Kremote: Compressing objects:  94% (320/340)   [Kremote: Compressing objects:  95% (323/340)   [Kremote: Compressing objects:  96% (327/340)   [Kremote: Compressing objects:  97% (330/340)   [Kremote: Compressing objects:  98% (334/340)   [Kremote: Compressing objects:  99% (337/340)   [Kremote: Compressing objects: 100% (340/340)   [Kremote: Compressing objects: 100% (340/340), done.[K
+Receiving objects:   0% (1/441)   Receiving objects:   1% (5/441)   Receiving objects:   2% (9/441)   Receiving objects:   3% (14/441)   Receiving objects:   4% (18/441)   Receiving objects:   5% (23/441)   Receiving objects:   6% (27/441)   Receiving objects:   7% (31/441)   Receiving objects:   8% (36/441)   Receiving objects:   9% (40/441)   Receiving objects:  10% (45/441)   Receiving objects:  11% (49/441)   Receiving objects:  12% (53/441)   Receiving objects:  13% (58/441)   Receiving objects:  14% (62/441)   Receiving objects:  15% (67/441)   Receiving objects:  16% (71/441)   Receiving objects:  17% (75/441)   Receiving objects:  18% (80/441)   Receiving objects:  19% (84/441)   Receiving objects:  20% (89/441)   Receiving objects:  21% (93/441)   Receiving objects:  22% (98/441)   Receiving objects:  23% (102/441)   Receiving objects:  24% (106/441)   Receiving objects:  25% (111/441)   Receiving objects:  26% (115/441)   Receiving objects:  27% (120/441)   Receiving objects:  28% (124/441)   Receiving objects:  29% (128/441)   Receiving objects:  30% (133/441)   Receiving objects:  31% (137/441)   Receiving objects:  32% (142/441)   Receiving objects:  33% (146/441)   Receiving objects:  34% (150/441)   Receiving objects:  35% (155/441)   Receiving objects:  36% (159/441)   Receiving objects:  37% (164/441)   Receiving objects:  38% (168/441)   Receiving objects:  39% (172/441)   Receiving objects:  40% (177/441)   Receiving objects:  41% (181/441)   Receiving objects:  42% (186/441)   Receiving objects:  43% (190/441)   Receiving objects:  44% (195/441)   Receiving objects:  45% (199/441)   Receiving objects:  46% (203/441)   Receiving objects:  47% (208/441)   Receiving objects:  48% (212/441)   Receiving objects:  49% (217/441)   Receiving objects:  50% (221/441)   Receiving objects:  51% (225/441)   Receiving objects:  52% (230/441)   Receiving objects:  53% (234/441)   Receiving objects:  54% (239/441)   Receiving objects:  55% (243/441)   Receiving objects:  56% (247/441)   Receiving objects:  57% (252/441)   Receiving objects:  58% (256/441)   Receiving objects:  59% (261/441)   Receiving objects:  60% (265/441)   Receiving objects:  61% (270/441)   Receiving objects:  62% (274/441)   Receiving objects:  63% (278/441)   Receiving objects:  64% (283/441)   Receiving objects:  65% (287/441)   Receiving objects:  66% (292/441)   Receiving objects:  67% (296/441)   Receiving objects:  68% (300/441)   Receiving objects:  69% (305/441)   Receiving objects:  70% (309/441)   Receiving objects:  71% (314/441)   Receiving objects:  72% (318/441)   Receiving objects:  73% (322/441)   Receiving objects:  74% (327/441)   Receiving objects:  75% (331/441)   Receiving objects:  76% (336/441)   Receiving objects:  77% (340/441)   Receiving objects:  78% (344/441)   Receiving objects:  79% (349/441)   Receiving objects:  80% (353/441)   Receiving objects:  81% (358/441)   Receiving objects:  82% (362/441)   Receiving objects:  83% (367/441)   Receiving objects:  84% (371/441)   Receiving objects:  85% (375/441)   Receiving objects:  86% (380/441)   Receiving objects:  87% (384/441)   Receiving objects:  88% (389/441)   Receiving objects:  89% (393/441)   Receiving objects:  90% (397/441)   Receiving objects:  91% (402/441)   Receiving objects:  92% (406/441)   Receiving objects:  93% (411/441)   Receiving objects:  94% (415/441)   Receiving objects:  95% (419/441)   remote: Total 441 (delta 27), reused 226 (delta 24), pack-reused 0[K
+Receiving objects:  96% (424/441)   Receiving objects:  97% (428/441)   Receiving objects:  98% (433/441)   Receiving objects:  99% (437/441)   Receiving objects: 100% (441/441)   Receiving objects: 100% (441/441), 419.47 KiB | 0 bytes/s, done.
+Resolving deltas:   0% (0/27)   Resolving deltas:   3% (1/27)   Resolving deltas:  14% (4/27)   Resolving deltas:  22% (6/27)   Resolving deltas:  25% (7/27)   Resolving deltas:  29% (8/27)   Resolving deltas:  33% (9/27)   Resolving deltas:  37% (10/27)   Resolving deltas:  40% (11/27)   Resolving deltas: 100% (27/27)   Resolving deltas: 100% (27/27), done.
+Checking connectivity... done.
+(in /Users/maximeliron/code/portail-mockgate/vendor/mruby)
+CC    src/array.c -> build/host/src/array.o
+CC    src/backtrace.c -> build/host/src/backtrace.o
+CC    src/class.c -> build/host/src/class.o
+CC    src/codegen.c -> build/host/src/codegen.o
+CC    src/compar.c -> build/host/src/compar.o
+CC    src/crc.c -> build/host/src/crc.o
+CC    src/debug.c -> build/host/src/debug.o
+CC    src/dump.c -> build/host/src/dump.o
+CC    src/enum.c -> build/host/src/enum.o
+CC    src/error.c -> build/host/src/error.o
+CC    src/etc.c -> build/host/src/etc.o
+CC    src/fmt_fp.c -> build/host/src/fmt_fp.o
+CC    src/gc.c -> build/host/src/gc.o
+CC    src/hash.c -> build/host/src/hash.o
+CC    src/init.c -> build/host/src/init.o
+CC    src/kernel.c -> build/host/src/kernel.o
+CC    src/load.c -> build/host/src/load.o
+CC    src/numeric.c -> build/host/src/numeric.o
+CC    src/object.c -> build/host/src/object.o
+CC    src/pool.c -> build/host/src/pool.o
+CC    src/print.c -> build/host/src/print.o
+CC    src/proc.c -> build/host/src/proc.o
+CC    src/range.c -> build/host/src/range.o
+CC    src/state.c -> build/host/src/state.o
+CC    src/string.c -> build/host/src/string.o
+CC    src/symbol.c -> build/host/src/symbol.o
+CC    src/variable.c -> build/host/src/variable.o
+CC    src/version.c -> build/host/src/version.o
+CC    src/vm.c -> build/host/src/vm.o
+YACC  src/parse.y -> build/host/src/y.tab.c
+CC    build/host/src/y.tab.c -> build/host/src/y.tab.o
+CC    tools/mrbc/mrbc.c -> build/host/tools/mrbc/mrbc.o
+AR    build/host/lib/libmruby_core.a 
+ar: creating archive /Users/maximeliron/code/portail-mockgate/vendor/mruby/build/host/lib/libmruby_core.a
+LD    build/host/bin/mrbc 
+GEN   *.rb -> build/host/mrblib/mrblib.c
+      MRBC mrblib/array.rb 
+      MRBC mrblib/class.rb 
+      MRBC mrblib/compar.rb 
+      MRBC mrblib/enum.rb 
+      MRBC mrblib/error.rb 
+      MRBC mrblib/hash.rb 
+      MRBC mrblib/kernel.rb 
+      MRBC mrblib/numeric.rb 
+      MRBC mrblib/range.rb 
+      MRBC mrblib/string.rb 
+CC    build/host/mrblib/mrblib.c -> build/host/mrblib/mrblib.o
+CC    mrbgems/mruby-sprintf/src/kernel.c -> build/host/mrbgems/mruby-sprintf/src/kernel.o
+CC    mrbgems/mruby-sprintf/src/sprintf.c -> build/host/mrbgems/mruby-sprintf/src/sprintf.o
+      MRBC mrbgems/mruby-sprintf/mrblib/string.rb 
+CC    build/host/mrbgems/mruby-sprintf/gem_init.c -> build/host/mrbgems/mruby-sprintf/gem_init.o
+CC    mrbgems/mruby-print/src/print.c -> build/host/mrbgems/mruby-print/src/print.o
+      MRBC mrbgems/mruby-print/mrblib/print.rb 
+CC    build/host/mrbgems/mruby-print/gem_init.c -> build/host/mrbgems/mruby-print/gem_init.o
+CC    mrbgems/mruby-math/src/math.c -> build/host/mrbgems/mruby-math/src/math.o
+CC    build/host/mrbgems/mruby-math/gem_init.c -> build/host/mrbgems/mruby-math/gem_init.o
+CC    mrbgems/mruby-time/src/time.c -> build/host/mrbgems/mruby-time/src/time.o
+      MRBC mrbgems/mruby-time/mrblib/time.rb 
+CC    build/host/mrbgems/mruby-time/gem_init.c -> build/host/mrbgems/mruby-time/gem_init.o
+CC    mrbgems/mruby-struct/src/struct.c -> build/host/mrbgems/mruby-struct/src/struct.o
+      MRBC mrbgems/mruby-struct/mrblib/struct.rb 
+CC    build/host/mrbgems/mruby-struct/gem_init.c -> build/host/mrbgems/mruby-struct/gem_init.o
+      MRBC mrbgems/mruby-enum-ext/mrblib/enum.rb 
+CC    build/host/mrbgems/mruby-enum-ext/gem_init.c -> build/host/mrbgems/mruby-enum-ext/gem_init.o
+CC    mrbgems/mruby-string-ext/src/string.c -> build/host/mrbgems/mruby-string-ext/src/string.o
+      MRBC mrbgems/mruby-string-ext/mrblib/string.rb 
+CC    build/host/mrbgems/mruby-string-ext/gem_init.c -> build/host/mrbgems/mruby-string-ext/gem_init.o
+CC    mrbgems/mruby-numeric-ext/src/numeric_ext.c -> build/host/mrbgems/mruby-numeric-ext/src/numeric_ext.o
+      MRBC mrbgems/mruby-numeric-ext/mrblib/numeric_ext.rb 
+CC    build/host/mrbgems/mruby-numeric-ext/gem_init.c -> build/host/mrbgems/mruby-numeric-ext/gem_init.o
+CC    mrbgems/mruby-array-ext/src/array.c -> build/host/mrbgems/mruby-array-ext/src/array.o
+      MRBC mrbgems/mruby-array-ext/mrblib/array.rb 
+CC    build/host/mrbgems/mruby-array-ext/gem_init.c -> build/host/mrbgems/mruby-array-ext/gem_init.o
+CC    mrbgems/mruby-hash-ext/src/hash-ext.c -> build/host/mrbgems/mruby-hash-ext/src/hash-ext.o
+      MRBC mrbgems/mruby-hash-ext/mrblib/hash.rb 
+CC    build/host/mrbgems/mruby-hash-ext/gem_init.c -> build/host/mrbgems/mruby-hash-ext/gem_init.o
+CC    mrbgems/mruby-range-ext/src/range.c -> build/host/mrbgems/mruby-range-ext/src/range.o
+CC    build/host/mrbgems/mruby-range-ext/gem_init.c -> build/host/mrbgems/mruby-range-ext/gem_init.o
+CC    mrbgems/mruby-proc-ext/src/proc.c -> build/host/mrbgems/mruby-proc-ext/src/proc.o
+      MRBC mrbgems/mruby-proc-ext/mrblib/proc.rb 
+CC    build/host/mrbgems/mruby-proc-ext/gem_init.c -> build/host/mrbgems/mruby-proc-ext/gem_init.o
+CC    mrbgems/mruby-symbol-ext/src/symbol.c -> build/host/mrbgems/mruby-symbol-ext/src/symbol.o
+      MRBC mrbgems/mruby-symbol-ext/mrblib/symbol.rb 
+CC    build/host/mrbgems/mruby-symbol-ext/gem_init.c -> build/host/mrbgems/mruby-symbol-ext/gem_init.o
+CC    mrbgems/mruby-random/src/mt19937ar.c -> build/host/mrbgems/mruby-random/src/mt19937ar.o
+CC    mrbgems/mruby-random/src/random.c -> build/host/mrbgems/mruby-random/src/random.o
+CC    build/host/mrbgems/mruby-random/gem_init.c -> build/host/mrbgems/mruby-random/gem_init.o
+CC    mrbgems/mruby-object-ext/src/object.c -> build/host/mrbgems/mruby-object-ext/src/object.o
+      MRBC mrbgems/mruby-object-ext/mrblib/object.rb 
+CC    build/host/mrbgems/mruby-object-ext/gem_init.c -> build/host/mrbgems/mruby-object-ext/gem_init.o
+CC    mrbgems/mruby-objectspace/src/mruby_objectspace.c -> build/host/mrbgems/mruby-objectspace/src/mruby_objectspace.o
+CC    build/host/mrbgems/mruby-objectspace/gem_init.c -> build/host/mrbgems/mruby-objectspace/gem_init.o
+CC    mrbgems/mruby-fiber/src/fiber.c -> build/host/mrbgems/mruby-fiber/src/fiber.o
+CC    build/host/mrbgems/mruby-fiber/gem_init.c -> build/host/mrbgems/mruby-fiber/gem_init.o
+      MRBC mrbgems/mruby-enumerator/mrblib/enumerator.rb 
+CC    build/host/mrbgems/mruby-enumerator/gem_init.c -> build/host/mrbgems/mruby-enumerator/gem_init.o
+      MRBC mrbgems/mruby-enum-lazy/mrblib/lazy.rb 
+CC    build/host/mrbgems/mruby-enum-lazy/gem_init.c -> build/host/mrbgems/mruby-enum-lazy/gem_init.o
+      MRBC mrbgems/mruby-toplevel-ext/mrblib/toplevel.rb 
+CC    build/host/mrbgems/mruby-toplevel-ext/gem_init.c -> build/host/mrbgems/mruby-toplevel-ext/gem_init.o
+CC    mrbgems/mruby-kernel-ext/src/kernel.c -> build/host/mrbgems/mruby-kernel-ext/src/kernel.o
+CC    build/host/mrbgems/mruby-kernel-ext/gem_init.c -> build/host/mrbgems/mruby-kernel-ext/gem_init.o
+CC    build/host/mrbgems/gem_init.c -> build/host/mrbgems/gem_init.o
+AR    build/host/lib/libmruby.a 
+ar: creating archive /Users/maximeliron/code/portail-mockgate/vendor/mruby/build/host/lib/libmruby.a
+CC    src/array.c -> build/edison/src/array.o
+CC    src/backtrace.c -> build/edison/src/backtrace.o
+CC    src/class.c -> build/edison/src/class.o
+CC    src/codegen.c -> build/edison/src/codegen.o
+CC    src/compar.c -> build/edison/src/compar.o
+CC    src/crc.c -> build/edison/src/crc.o
+CC    src/debug.c -> build/edison/src/debug.o
+CC    src/dump.c -> build/edison/src/dump.o
+CC    src/enum.c -> build/edison/src/enum.o
+CC    src/error.c -> build/edison/src/error.o
+CC    src/etc.c -> build/edison/src/etc.o
+CC    src/fmt_fp.c -> build/edison/src/fmt_fp.o
+CC    src/gc.c -> build/edison/src/gc.o
+CC    src/hash.c -> build/edison/src/hash.o
+CC    src/init.c -> build/edison/src/init.o
+CC    src/kernel.c -> build/edison/src/kernel.o
+CC    src/load.c -> build/edison/src/load.o
+CC    src/numeric.c -> build/edison/src/numeric.o
+CC    src/object.c -> build/edison/src/object.o
+CC    src/pool.c -> build/edison/src/pool.o
+CC    src/print.c -> build/edison/src/print.o
+CC    src/proc.c -> build/edison/src/proc.o
+CC    src/range.c -> build/edison/src/range.o
+CC    src/state.c -> build/edison/src/state.o
+CC    src/string.c -> build/edison/src/string.o
+CC    src/symbol.c -> build/edison/src/symbol.o
+CC    src/variable.c -> build/edison/src/variable.o
+CC    src/version.c -> build/edison/src/version.o
+CC    src/vm.c -> build/edison/src/vm.o
+YACC  src/parse.y -> build/edison/src/y.tab.c
+CC    build/edison/src/y.tab.c -> build/edison/src/y.tab.o
+GEN   *.rb -> build/edison/mrblib/mrblib.c
+      MRBC mrblib/array.rb 
+      MRBC mrblib/class.rb 
+      MRBC mrblib/compar.rb 
+      MRBC mrblib/enum.rb 
+      MRBC mrblib/error.rb 
+      MRBC mrblib/hash.rb 
+      MRBC mrblib/kernel.rb 
+      MRBC mrblib/numeric.rb 
+      MRBC mrblib/range.rb 
+      MRBC mrblib/string.rb 
+CC    build/edison/mrblib/mrblib.c -> build/edison/mrblib/mrblib.o
+CC    mrbgems/mruby-sprintf/src/kernel.c -> build/edison/mrbgems/mruby-sprintf/src/kernel.o
+CC    mrbgems/mruby-sprintf/src/sprintf.c -> build/edison/mrbgems/mruby-sprintf/src/sprintf.o
+      MRBC mrbgems/mruby-sprintf/mrblib/string.rb 
+CC    build/edison/mrbgems/mruby-sprintf/gem_init.c -> build/edison/mrbgems/mruby-sprintf/gem_init.o
+CC    mrbgems/mruby-print/src/print.c -> build/edison/mrbgems/mruby-print/src/print.o
+      MRBC mrbgems/mruby-print/mrblib/print.rb 
+CC    build/edison/mrbgems/mruby-print/gem_init.c -> build/edison/mrbgems/mruby-print/gem_init.o
+CC    mrbgems/mruby-math/src/math.c -> build/edison/mrbgems/mruby-math/src/math.o
+CC    build/edison/mrbgems/mruby-math/gem_init.c -> build/edison/mrbgems/mruby-math/gem_init.o
+CC    mrbgems/mruby-time/src/time.c -> build/edison/mrbgems/mruby-time/src/time.o
+      MRBC mrbgems/mruby-time/mrblib/time.rb 
+CC    build/edison/mrbgems/mruby-time/gem_init.c -> build/edison/mrbgems/mruby-time/gem_init.o
+CC    mrbgems/mruby-struct/src/struct.c -> build/edison/mrbgems/mruby-struct/src/struct.o
+      MRBC mrbgems/mruby-struct/mrblib/struct.rb 
+CC    build/edison/mrbgems/mruby-struct/gem_init.c -> build/edison/mrbgems/mruby-struct/gem_init.o
+      MRBC mrbgems/mruby-enum-ext/mrblib/enum.rb 
+CC    build/edison/mrbgems/mruby-enum-ext/gem_init.c -> build/edison/mrbgems/mruby-enum-ext/gem_init.o
+CC    mrbgems/mruby-string-ext/src/string.c -> build/edison/mrbgems/mruby-string-ext/src/string.o
+      MRBC mrbgems/mruby-string-ext/mrblib/string.rb 
+CC    build/edison/mrbgems/mruby-string-ext/gem_init.c -> build/edison/mrbgems/mruby-string-ext/gem_init.o
+CC    mrbgems/mruby-numeric-ext/src/numeric_ext.c -> build/edison/mrbgems/mruby-numeric-ext/src/numeric_ext.o
+      MRBC mrbgems/mruby-numeric-ext/mrblib/numeric_ext.rb 
+CC    build/edison/mrbgems/mruby-numeric-ext/gem_init.c -> build/edison/mrbgems/mruby-numeric-ext/gem_init.o
+CC    mrbgems/mruby-array-ext/src/array.c -> build/edison/mrbgems/mruby-array-ext/src/array.o
+      MRBC mrbgems/mruby-array-ext/mrblib/array.rb 
+CC    build/edison/mrbgems/mruby-array-ext/gem_init.c -> build/edison/mrbgems/mruby-array-ext/gem_init.o
+CC    mrbgems/mruby-hash-ext/src/hash-ext.c -> build/edison/mrbgems/mruby-hash-ext/src/hash-ext.o
+      MRBC mrbgems/mruby-hash-ext/mrblib/hash.rb 
+CC    build/edison/mrbgems/mruby-hash-ext/gem_init.c -> build/edison/mrbgems/mruby-hash-ext/gem_init.o
+CC    mrbgems/mruby-range-ext/src/range.c -> build/edison/mrbgems/mruby-range-ext/src/range.o
+CC    build/edison/mrbgems/mruby-range-ext/gem_init.c -> build/edison/mrbgems/mruby-range-ext/gem_init.o
+CC    mrbgems/mruby-proc-ext/src/proc.c -> build/edison/mrbgems/mruby-proc-ext/src/proc.o
+      MRBC mrbgems/mruby-proc-ext/mrblib/proc.rb 
+CC    build/edison/mrbgems/mruby-proc-ext/gem_init.c -> build/edison/mrbgems/mruby-proc-ext/gem_init.o
+CC    mrbgems/mruby-symbol-ext/src/symbol.c -> build/edison/mrbgems/mruby-symbol-ext/src/symbol.o
+      MRBC mrbgems/mruby-symbol-ext/mrblib/symbol.rb 
+CC    build/edison/mrbgems/mruby-symbol-ext/gem_init.c -> build/edison/mrbgems/mruby-symbol-ext/gem_init.o
+CC    mrbgems/mruby-random/src/mt19937ar.c -> build/edison/mrbgems/mruby-random/src/mt19937ar.o
+CC    mrbgems/mruby-random/src/random.c -> build/edison/mrbgems/mruby-random/src/random.o
+CC    build/edison/mrbgems/mruby-random/gem_init.c -> build/edison/mrbgems/mruby-random/gem_init.o
+CC    mrbgems/mruby-object-ext/src/object.c -> build/edison/mrbgems/mruby-object-ext/src/object.o
+      MRBC mrbgems/mruby-object-ext/mrblib/object.rb 
+CC    build/edison/mrbgems/mruby-object-ext/gem_init.c -> build/edison/mrbgems/mruby-object-ext/gem_init.o
+CC    mrbgems/mruby-objectspace/src/mruby_objectspace.c -> build/edison/mrbgems/mruby-objectspace/src/mruby_objectspace.o
+CC    build/edison/mrbgems/mruby-objectspace/gem_init.c -> build/edison/mrbgems/mruby-objectspace/gem_init.o
+CC    mrbgems/mruby-fiber/src/fiber.c -> build/edison/mrbgems/mruby-fiber/src/fiber.o
+CC    build/edison/mrbgems/mruby-fiber/gem_init.c -> build/edison/mrbgems/mruby-fiber/gem_init.o
+      MRBC mrbgems/mruby-enumerator/mrblib/enumerator.rb 
+CC    build/edison/mrbgems/mruby-enumerator/gem_init.c -> build/edison/mrbgems/mruby-enumerator/gem_init.o
+      MRBC mrbgems/mruby-enum-lazy/mrblib/lazy.rb 
+CC    build/edison/mrbgems/mruby-enum-lazy/gem_init.c -> build/edison/mrbgems/mruby-enum-lazy/gem_init.o
+      MRBC mrbgems/mruby-toplevel-ext/mrblib/toplevel.rb 
+CC    build/edison/mrbgems/mruby-toplevel-ext/gem_init.c -> build/edison/mrbgems/mruby-toplevel-ext/gem_init.o
+CC    mrbgems/mruby-kernel-ext/src/kernel.c -> build/edison/mrbgems/mruby-kernel-ext/src/kernel.o
+CC    build/edison/mrbgems/mruby-kernel-ext/gem_init.c -> build/edison/mrbgems/mruby-kernel-ext/gem_init.o
+CC    build/edison/mrbgems/gem_init.c -> build/edison/mrbgems/gem_init.o
+AR    build/edison/lib/libmruby.a 
+CC    mrbgems/mruby-bin-mirb/tools/mirb/mirb.c -> build/host/mrbgems/mruby-bin-mirb/tools/mirb/mirb.o
+LD    build/host/bin/mirb 
+CC    mrbgems/mruby-bin-mruby/tools/mruby/mruby.c -> build/host/mrbgems/mruby-bin-mruby/tools/mruby/mruby.o
+LD    build/host/bin/mruby 
+CC    mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.c -> build/host/mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.o
+LD    build/host/bin/mruby-strip 
+CC    mrbgems/mruby-bin-mirb/tools/mirb/mirb.c -> build/edison/mrbgems/mruby-bin-mirb/tools/mirb/mirb.o
+LD    build/edison/bin/mirb 
+CC    mrbgems/mruby-bin-mruby/tools/mruby/mruby.c -> build/edison/mrbgems/mruby-bin-mruby/tools/mruby/mruby.o
+LD    build/edison/bin/mruby 
+CC    mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.c -> build/edison/mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.o
+LD    build/edison/bin/mruby-strip 
+CC    tools/mrbc/mrbc.c -> build/edison/tools/mrbc/mrbc.o
+AR    build/edison/lib/libmruby_core.a 
+LD    build/edison/bin/mrbc 
+
+Build summary:
+
+================================================
+      Config Name: host
+ Output Directory: build/host
+         Binaries: mrbc
+    Included Gems:
+             mruby-sprintf - standard Kernel#sprintf method
+             mruby-print - standard print/puts/p
+             mruby-math - standard Math module
+             mruby-time - standard Time class
+             mruby-struct - standard Struct class
+             mruby-enum-ext - extensional Enumerable module
+             mruby-string-ext - extensional String class
+             mruby-numeric-ext - extensional Numeric class
+             mruby-array-ext - extensional Array class
+             mruby-hash-ext - extensional Hash class
+             mruby-range-ext - extensional Range class
+             mruby-proc-ext - extensional Proc class
+             mruby-symbol-ext - extensional Symbol class
+             mruby-random - Random class
+             mruby-object-ext - extensional Object class
+             mruby-objectspace - ObjectSpace class
+             mruby-fiber - Fiber class
+             mruby-enumerator - Enumerator class
+             mruby-enum-lazy - Enumerable::Lazy class
+             mruby-toplevel-ext - extended toplevel object (main) methods
+             mruby-bin-mirb - mirb command
+               - Binaries: mirb
+             mruby-bin-mruby - mruby command
+               - Binaries: mruby
+             mruby-bin-strip - irep dump debug section remover command
+               - Binaries: mruby-strip
+             mruby-kernel-ext - extensional Kernel module
+================================================
+
+================================================
+      Config Name: edison
+ Output Directory: build/edison
+         Binaries: mrbc
+    Included Gems:
+             mruby-sprintf - standard Kernel#sprintf method
+             mruby-print - standard print/puts/p
+             mruby-math - standard Math module
+             mruby-time - standard Time class
+             mruby-struct - standard Struct class
+             mruby-enum-ext - extensional Enumerable module
+             mruby-string-ext - extensional String class
+             mruby-numeric-ext - extensional Numeric class
+             mruby-array-ext - extensional Array class
+             mruby-hash-ext - extensional Hash class
+             mruby-range-ext - extensional Range class
+             mruby-proc-ext - extensional Proc class
+             mruby-symbol-ext - extensional Symbol class
+             mruby-random - Random class
+             mruby-object-ext - extensional Object class
+             mruby-objectspace - ObjectSpace class
+             mruby-fiber - Fiber class
+             mruby-enumerator - Enumerator class
+             mruby-enum-lazy - Enumerable::Lazy class
+             mruby-toplevel-ext - extended toplevel object (main) methods
+             mruby-bin-mirb - mirb command
+               - Binaries: mirb
+             mruby-bin-mruby - mruby command
+               - Binaries: mruby
+             mruby-bin-strip - irep dump debug section remover command
+               - Binaries: mruby-strip
+             mruby-kernel-ext - extensional Kernel module
+================================================
+
+]0;fish  /Users/maximeliron/code/portail-mockgate[30m(B[m[38;5;245m⏎[0m                                                                                                                       [38;5;220m~/c/portail-mockgate[30m(B[m $ [K
